@@ -70,6 +70,7 @@ class FindAllTest < Minitest::Test
   end
 
   def test_find_all_key_value_pairs_that_end_with_s
+    skip
     words = {
       keys: "dogs",
       arent: "cat",
