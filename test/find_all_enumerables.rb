@@ -80,9 +80,7 @@ class FindAllTest < Minitest::Test
       [:keys, "dogs"],
       [:that, "birds"]
     ]
-    find = words.find_all do |key, value|
-      value.end_with?("s")
-    end
+    # find = Your code here
 
     assert_equal results, find
   end
@@ -106,15 +104,14 @@ class FindAllTest < Minitest::Test
   end
 
   def test_find_all_employees_on_vacation
+    skip
     company = Company.new("Bob's Bobsleds")
     bob = Employee.new(name: "Bob", vacation: true)
     bobette = Employee.new(name: "Bobette", vacation: false)
     company.add_employee(bob)
     company.add_employee(bobette)
+    # find = Your code here
 
-    find = company.employees.find_all do |employees|
-      employees.vacation == true
-    end
     result = [bob]
     assert_equal result, find
   end
