@@ -1,6 +1,6 @@
 
 # Ruby Enumerables Practice!
-#### "We gon' 'numerabble now!"
+#### "We numer-rabble now!"
 
 Does iteration make your skin crawl?
 
