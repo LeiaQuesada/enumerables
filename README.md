@@ -17,10 +17,10 @@ Make commits to this project. Progress in your knowledge.
 Others clone and learn from your tests. They make their own tests and make commits *ad nausea*! `I'M GETTING SICK!`
 
 **Why do this?**
-The best way to learn is to teach and while you're learning you can contribute to a better world by helping others to learn and to be empowered to learn a new skill. What a great thing thing to be a part of.
+The best way to learn is to teach and while you're learning you can contribute to a better world by helping others to learn and to be empowered to learn a new skill. What a great thing thing to be a part of.  
 
-##### This is an open source project.
 
+#### This is an open source project.
  I've started with the `find_all` enumerable. I'll continue adding to this, or maybe I won't. No promises. Only a start and hope that maybe this will help someone.
 
  Cheers!
