@@ -94,6 +94,7 @@ class MapTest < Minitest::Test
   end
 
   def test_it_can_add_the_best_to_employee_names
+    skip
     company = Company.new("Bob's Bobsleds")
     bob = Employee.new(name: "Bob", vacation: true)
     bobette = Employee.new(name: "Bobette", vacation: false)
