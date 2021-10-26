@@ -5,23 +5,23 @@ require './lib/employee'
 
 class AnyTest < Minitest::Test
   def test_if_any_number_greater_than_99_exists
-    skip
-    array = [31, 9, 13, 33, 21, 18, 7, 8, 2, 23, 24, 11, 29, 5, 28, 20, 16, 19, 25, 26, 32, 6, 4, 1, 35]
+    # skip
+    array = [31, 9, 13, 33, 21, 18, 7, 8, 2, 23, 24, 11, 29, 5, 28, 100, 20, 16, 19, 25, 26, 32, 6, 4, 1, 35]
     any = array.any? do |number|
       # Your code here
     end
 
-    assert_equal false, any
+    assert_equal true, any
   end
 
   def test_it_any_string_exists
-    skip
-    array = [31, 9, 13, 33, 21, 18, 7, 8, 2, 23, 24, 11, 29, 5, 28, 20, 16, 19, 25, 26, 32, 6, 4, 1, 35]
+    # skip
+    array = [31, 9, 13, 33, 21, 18, 7, 8, 2, 23, 24, 11, 29, 5, "mayo", 28, 20, 16, 19, 25, 26, 32, 6, 4, 1, 35]
     any = array.any? do |number|
       # Your code here
     end
 
-    assert_equal false, any
+    assert_equal true, any
   end
 
   def test_if_any_word_greater_than_length_of_7_exists
